@@ -1,0 +1,13 @@
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\bin\Debug\NationInformation.exe.config
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\bin\Debug\NationInformation.exe
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\bin\Debug\NationInformation.pdb
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\bin\Debug\Renci.SshNet.dll
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\bin\Debug\Renci.SshNet.xml
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\obj\Debug\NationInformation.csprojAssemblyReference.cache
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\obj\Debug\NationInformation.Form1.resources
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\obj\Debug\NationInformation.Properties.Resources.resources
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\obj\Debug\NationInformation.csproj.GenerateResource.cache
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\obj\Debug\NationInformation.csproj.CoreCompileInputs.cache
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\obj\Debug\NationInformation.csproj.CopyComplete
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\obj\Debug\NationInformation.exe
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\obj\Debug\NationInformation.pdb
