@@ -56,43 +56,10 @@ namespace NationInformation
                     return true;
                 }
 
+                ///linuxコマンドラインで実行
                 executeCmd(ssh, "ls -al");
                 executeCmd(ssh, "pwd");
                 
-                /*
-                                // 送信したいコマンドを変数に入れる
-                                var commandString = "mysql -u naoki -p";
-
-                                // コマンドを作成する
-                                SshCommand cmd = ssh.CreateCommand(commandString);
-
-                                // コマンドを実行する
-                                cmd.Execute();
-
-                                // 送信したいコマンドを変数に入れる
-                                commandString = "Arh406@sql";
-
-                                // コマンドを実行する
-                                cmd.Execute();
-
-
-                                // 結果を変数に入れる
-                                var stdOut = cmd.Result;
-                                var stdErr = cmd.Error;
-
-                                // 標準出力を表示する
-                                if (stdOut != string.Empty)
-                                {
-                                    MessageBox.Show("日付：" + stdOut);
-                                }
-
-                                // エラー出力を表示する
-                                if (cmd.ExitStatus != 0 && stdErr != string.Empty)
-                                {
-                                    MessageBox.Show("日付：" + stdErr);
-                                }
-                */
-
                 // 接続終了
                 ssh.Disconnect();
 

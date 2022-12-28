@@ -31,7 +31,7 @@ namespace NationInformation
         private void button2_Click(object sender, EventArgs e)
         {
 
-            sqlConnection.connectSQL();
+            sqlConnection.connectSQL(this);
         }
     }
 }

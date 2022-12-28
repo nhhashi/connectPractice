@@ -31,6 +31,10 @@ namespace NationInformation
         {
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.No = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nation = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.capital = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.population = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -47,12 +51,38 @@ namespace NationInformation
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(72, 13);
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.No,
+            this.Nation,
+            this.capital,
+            this.population});
+            this.dataGridView1.Location = new System.Drawing.Point(12, 13);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 21;
-            this.dataGridView1.Size = new System.Drawing.Size(349, 191);
+            this.dataGridView1.Size = new System.Drawing.Size(433, 191);
             this.dataGridView1.TabIndex = 1;
+            // 
+            // No
+            // 
+            this.No.HeaderText = "no";
+            this.No.Name = "No";
+            // 
+            // Nation
+            // 
+            this.Nation.HeaderText = "国名";
+            this.Nation.Name = "Nation";
+            // 
+            // capital
+            // 
+            this.capital.HeaderText = "首都";
+            this.capital.Name = "capital";
+            // 
+            // population
+            // 
+            this.population.HeaderText = "人口";
+            this.population.Name = "population";
             // 
             // button2
             // 
@@ -68,7 +98,7 @@ namespace NationInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(555, 261);
+            this.ClientSize = new System.Drawing.Size(555, 282);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
@@ -81,9 +111,13 @@ namespace NationInformation
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button2;
+        public System.Windows.Forms.Button button1;
+        public System.Windows.Forms.DataGridView dataGridView1;
+        public System.Windows.Forms.Button button2;
+        public System.Windows.Forms.DataGridViewTextBoxColumn No;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Nation;
+        public System.Windows.Forms.DataGridViewTextBoxColumn capital;
+        public System.Windows.Forms.DataGridViewTextBoxColumn population;
     }
 }
 
