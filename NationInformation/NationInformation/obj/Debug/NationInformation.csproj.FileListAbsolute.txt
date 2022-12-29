@@ -33,3 +33,4 @@ C:\Users\G018C1233\source\repos\NationInformation\NationInformation\bin\Debug\Sy
 C:\Users\G018C1233\source\repos\NationInformation\NationInformation\bin\Debug\System.Memory.xml
 C:\Users\G018C1233\source\repos\NationInformation\NationInformation\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\G018C1233\source\repos\NationInformation\NationInformation\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\G018C1233\source\repos\NationInformation\NationInformation\obj\Debug\NationInformation.InsertDataForm.resources
