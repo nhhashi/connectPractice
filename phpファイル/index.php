@@ -17,10 +17,10 @@ print("example");
 print("DB Connect Test");
 
 // データベースへの接続に必要な変数を指定
-$host = '192.168.3.12';
-$username = 'naokidb';
-$passwd = 'Arh406@sql';
-$dbname = 'dbtest';
+$host = '';
+$username = '';
+$passwd = '';
+$dbname = '';
  
 // データベースへ接続
 $db = mysqli_connect($host, $username, $passwd, $dbname);
